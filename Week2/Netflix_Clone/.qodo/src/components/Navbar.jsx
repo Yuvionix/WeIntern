@@ -1,0 +1,20 @@
+import "./Navbar.css";
+
+function Navbar() {
+  return (
+    <div className="navbar">
+      <img
+        className="logo"
+        src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png"
+        alt="Netflix Logo"
+      />
+      <img
+        className="avatar"
+        src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
+        alt="User"
+      />
+    </div>
+  );
+}
+
+export default Navbar;
